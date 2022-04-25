@@ -28,3 +28,17 @@ function justFun( num7, num8 ) {
 }
 var add3 = justFun( 4, 5);
 console.log(add3);
+
+// /number 5 function
+function meFun( a, b){
+    return a+b;
+}
+var c = meFun (1,2);
+console.log(c);
+
+//number 6 function
+function lima1( devi1, devi2) {
+    return devi1-devi2;
+}
+var ridoyAdd = lima1(9, 8);
+console.log(ridoyAdd);
