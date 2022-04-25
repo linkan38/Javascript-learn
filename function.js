@@ -42,3 +42,15 @@ function lima1( devi1, devi2) {
 }
 var ridoyAdd = lima1(9, 8);
 console.log(ridoyAdd);
+
+//(7)function er vitor for loop
+function alu( moric) {
+    var begun = 1;
+    for (var i = 1; i <=5; i++) {
+        begun = begun*i;
+        
+    }
+    return begun;
+}
+var result = alu(5);
+console.log("resutl:", result);
